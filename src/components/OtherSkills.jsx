@@ -21,7 +21,9 @@ const OtherSkills = () => {
           <h2>OTRAS HABILIDADES</h2>
         </div>
         <div className="icon-other-skills">
-          <SiHtml5 fill="rgba(255, 255, 255, .8)" className="icons-skills" />
+          <div>
+            <SiHtml5 fill="rgba(255, 255, 255, .8)" className="icons-skills" />
+          </div>
           <SiCss3 fill="rgba(255, 255, 255, .8)" className="icons-skills" />
           <SiGit fill="rgba(255, 255, 255, .8)" className="icons-skills" />
           <SiGithub fill="rgba(255, 255, 255, .8)" className="icons-skills" />

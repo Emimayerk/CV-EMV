@@ -2,7 +2,7 @@ import React from "react";
 
 import "../css/header.css";
 
-import emi from "../assets/img/emi.jpg";
+import Emiliano from "../assets/img/Emiliano.jpg";
 import linkedin from "../assets/img/linkedin.png";
 import github from "../assets/img/github.png";
 import gmail from "../assets/img/gmail.png";
@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <React.Fragment>
       <div className="block-header">
-        <img src={emi} alt="" className="principal-image" />
+        <img src={Emiliano} alt="" className="principal-image" />
         <div className="box-title">
           <h1>EMILIANO MAYER VIEGAS</h1>
           <h3>Fron End Developer</h3>
