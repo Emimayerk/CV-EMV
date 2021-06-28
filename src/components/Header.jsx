@@ -5,6 +5,7 @@ import "../css/header.css";
 import emi from "../assets/img/emi.jpg";
 import linkedin from "../assets/img/linkedin.png";
 import github from "../assets/img/github.png";
+import gmail from "../assets/img/gmail.png";
 
 const Header = () => {
   return (
@@ -15,6 +16,11 @@ const Header = () => {
           <h1>EMILIANO MAYER VIEGAS</h1>
           <h3>Fron End Developer</h3>
           <div className="box-links">
+            <figure>
+              <a href="mailto: emilianomayerviegas@gmail.com" target="blank_">
+                <img src={gmail} alt="" />
+              </a>
+            </figure>
             <figure>
               <a
                 href="https://www.linkedin.com/in/emiliano-mayer-viegas-03a0a41b2/"
