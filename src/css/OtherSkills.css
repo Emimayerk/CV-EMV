@@ -26,6 +26,7 @@
   justify-content: space-around;
   align-items: center;
   align-content: center;
+  padding: 2rem 0;
 }
 
 .icons-skills {
@@ -52,5 +53,9 @@
   .icons-skills {
     width: 1.5em;
     height: 1.5em;
+  }
+
+  .icon-other-skills {
+    padding: 0;
   }
 }
