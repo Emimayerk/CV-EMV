@@ -21,22 +21,47 @@ const OtherSkills = () => {
           <h2>OTRAS HABILIDADES</h2>
         </div>
         <div className="icon-other-skills">
-          <div>
+          <div className="other-skills-containers">
+            <h3>HTML5</h3>
             <SiHtml5 fill="rgba(255, 255, 255, .8)" className="icons-skills" />
           </div>
-          <SiCss3 fill="rgba(255, 255, 255, .8)" className="icons-skills" />
-          <SiGit fill="rgba(255, 255, 255, .8)" className="icons-skills" />
-          <SiGithub fill="rgba(255, 255, 255, .8)" className="icons-skills" />
-          <SiBootstrap
-            fill="rgba(255, 255, 255, .8)"
-            className="icons-skills"
-          />
-          <SiVisualstudiocode
-            fill="rgba(255, 255, 255, .8)"
-            className="icons-skills"
-          />
-          <SiAdobexd fill="rgba(255, 255, 255, .8)" className="icons-skills" />
-          <SiJquery fill="rgba(255, 255, 255, .8)" className="icons-skills" />
+          <div className="other-skills-containers">
+            <h3>CSS3</h3>
+            <SiCss3 fill="rgba(255, 255, 255, .8)" className="icons-skills" />
+          </div>
+          <div className="other-skills-containers">
+            <h3>GIT</h3>
+            <SiGit fill="rgba(255, 255, 255, .8)" className="icons-skills" />
+          </div>
+          <div className="other-skills-containers">
+            <h3>GITHUB</h3>
+            <SiGithub fill="rgba(255, 255, 255, .8)" className="icons-skills" />
+          </div>
+          <div className="other-skills-containers">
+            <h3>BOOTSTRAP</h3>
+            <SiBootstrap
+              fill="rgba(255, 255, 255, .8)"
+              className="icons-skills"
+            />
+          </div>
+          <div className="other-skills-containers">
+            <h3>VSC</h3>
+            <SiVisualstudiocode
+              fill="rgba(255, 255, 255, .8)"
+              className="icons-skills"
+            />
+          </div>
+          <div className="other-skills-containers">
+            <h3>ADOBE Xd</h3>
+            <SiAdobexd
+              fill="rgba(255, 255, 255, .8)"
+              className="icons-skills"
+            />
+          </div>
+          <div className="other-skills-containers">
+            <h3>jQUERY</h3>
+            <SiJquery fill="rgba(255, 255, 255, .8)" className="icons-skills" />
+          </div>
         </div>
       </div>
     </React.Fragment>

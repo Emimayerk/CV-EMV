@@ -24,8 +24,9 @@ const PrincipalSkills = () => {
           <h3>Javascript - 2 años</h3>
         </div>
         <h5>
-          Profundizo día a día mis conocimientos en este lenguaje capacitándome
-          de manera autodidacta.
+          Me capacito constantemente en este lenguaje. Tengo conocimiento de la
+          librería jQuery, aunque en la actualidad estoy aprendiendo Vainilla
+          JS.
         </h5>
         <div className="description-skills">
           <SiWordpress fill="#ffffff" />

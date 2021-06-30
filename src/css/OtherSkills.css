@@ -24,9 +24,20 @@
 .icon-other-skills {
   display: flex;
   justify-content: space-around;
-  align-items: center;
   align-content: center;
   padding: 2rem 0;
+}
+
+.other-skills-containers {
+  text-align: center;
+}
+
+.other-skills-containers h3 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 0 0 1rem 0;
+  text-align: center;
 }
 
 .icons-skills {
@@ -56,6 +67,10 @@
   }
 
   .icon-other-skills {
-    padding: 0;
+    padding: 1rem 0;
+  }
+
+  .other-skills-containers h3 {
+    display: none;
   }
 }

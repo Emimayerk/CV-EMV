@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header.jsx";
 import PrincipalSkills from "./Principal-Skills";
 import OtherSkills from "./OtherSkills.jsx";
+import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
       <Header />
       <PrincipalSkills />
       <OtherSkills />
+      <Portfolio />
       <Contact />
     </React.Fragment>
   );
