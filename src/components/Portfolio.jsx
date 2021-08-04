@@ -26,6 +26,28 @@ const Portfolio = () => {
             </figure>
           </div>
           <div className="work-container">
+            <h3>JK WEDDING PLANNER</h3>
+            <figure>
+              <a
+                href="https://pruebasfriendlymarketing.us/jkbouquet/"
+                target="blank"
+              >
+                <img src={wedding} alt="" />
+              </a>
+            </figure>
+          </div>
+          <div className="work-container">
+            <h3>CCR STEEL</h3>
+            <figure>
+              <a
+                href="https://pruebasfriendlymarketing.us/ccrsteel/"
+                target="blank"
+              >
+                <img src={ccr} alt="" />
+              </a>
+            </figure>
+          </div>
+          <div className="work-container">
             <h3>MP MARKETS</h3>
             <figure>
               <a
@@ -49,28 +71,6 @@ const Portfolio = () => {
             <figure>
               <a href="https://www.isquared-la.com/" target="blank">
                 <img src={Isquared} alt="" />
-              </a>
-            </figure>
-          </div>
-          <div className="work-container">
-            <h3>JK WEDDING PLANNER</h3>
-            <figure>
-              <a
-                href="https://pruebasfriendlymarketing.us/jkbouquet/"
-                target="blank"
-              >
-                <img src={wedding} alt="" />
-              </a>
-            </figure>
-          </div>
-          <div className="work-container">
-            <h3>CCR STEEL</h3>
-            <figure>
-              <a
-                href="https://pruebasfriendlymarketing.us/ccrsteel/"
-                target="blank"
-              >
-                <img src={ccr} alt="" />
               </a>
             </figure>
           </div>
