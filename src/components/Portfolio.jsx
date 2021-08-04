@@ -5,6 +5,7 @@ import mpmarkets from "../assets/img/mpmarkets.jpg";
 import kiboAR from "../assets/img/kiboAR.jpg";
 import Isquared from "../assets/img/ISQUARED.jpg";
 import wedding from "../assets/img/wedding.jpg";
+import ccr from "../assets/img/ccr.jpg";
 
 import "../css/Portfolio.css";
 
@@ -27,7 +28,10 @@ const Portfolio = () => {
           <div className="work-container">
             <h3>MP MARKETS</h3>
             <figure>
-              <a href="https://elalmazen.com.ar/mpmarkets/" target="blank">
+              <a
+                href="https://pruebasfriendlymarketing.us/mpmarkets/"
+                target="blank"
+              >
                 <img src={mpmarkets} alt="" />
               </a>
             </figure>
@@ -52,10 +56,21 @@ const Portfolio = () => {
             <h3>JK WEDDING PLANNER</h3>
             <figure>
               <a
-                href="https://www.elalmazen.com.ar/wordpress-prueba/wordpress"
+                href="https://pruebasfriendlymarketing.us/jkbouquet/"
                 target="blank"
               >
                 <img src={wedding} alt="" />
+              </a>
+            </figure>
+          </div>
+          <div className="work-container">
+            <h3>CCR STEEL</h3>
+            <figure>
+              <a
+                href="https://pruebasfriendlymarketing.us/ccrsteel/"
+                target="blank"
+              >
+                <img src={ccr} alt="" />
               </a>
             </figure>
           </div>
