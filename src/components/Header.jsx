@@ -14,7 +14,7 @@ const Header = () => {
         <img src={Emiliano} alt="" className="principal-image" />
         <div className="box-title">
           <h1>EMILIANO MAYER VIEGAS</h1>
-          <h3>Fron End Developer</h3>
+          <h3>Front End Developer</h3>
           <div className="box-links">
             <figure>
               <a href="mailto: emilianomayerviegas@gmail.com" target="blank_">
