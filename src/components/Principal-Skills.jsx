@@ -16,25 +16,26 @@ const PrincipalSkills = () => {
           <h3>React JS - 1 año</h3>
         </div>
         <h5>
-          Hago uso de este framework trabajando para Integra Software donde mi
-          principal tarea se basa en migrar un ERP a Web.
+          En el presente me encuentro estudiando a fondo el uso de esta
+          librería/framework.
         </h5>
         <div className="description-skills">
           <SiJavascript fill="#ffffff" />
           <h3>Javascript - 2 años</h3>
         </div>
         <h5>
-          Me capacito constantemente en este lenguaje. Tengo conocimiento de la
-          librería jQuery, aunque en la actualidad estoy aprendiendo Vainilla
-          JS.
+          Actualmente trabajo como Front End Developer en Integra Software donde
+          mi principal tarea se basa en desarrollar un ECommerce con Vanilla
+          JavaScript consumiendo API's desde un Back End de Progress Application
+          Server.
         </h5>
         <div className="description-skills">
           <SiWordpress fill="#ffffff" />
           <h3>WordPress / Woocommerce - 3 años</h3>
         </div>
         <h5>
-          He desarrollado varios sitios usando este CMS sobre la plataforma de
-          ventas de Woocommerce.
+          He desarrollado varios sitios, trabajando para Friendly Marketing,
+          usando este CMS sobre la plataforma de venta online de WooCommerce.
         </h5>
       </div>
     </React.Fragment>
