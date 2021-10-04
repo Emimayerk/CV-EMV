@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Open sans";
+  font-family: 'Open sans';
   font-weight: 300;
 }
 
@@ -32,12 +32,22 @@
   align-content: center;
 }
 
+.box-qr a {
+  text-decoration: none;
+}
+
 .description-qr h5 {
   color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 1rem 0;
-  font-size: 0.8rem;
+  font-size: 16px;
   font-weight: 400;
+}
+
+.description-qr h5:hover {
+  text-decoration: underline 1px rgb(231, 231, 231);
+  transition-duration: 0.3s;
+  color: rgb(255, 255, 255);
 }
 
 .footer {
@@ -50,7 +60,7 @@
 }
 
 .footer h6 {
-  font-size: 0.5rem;
+  font-size: 0.4rem;
   font-weight: 100;
   color: rgba(201, 201, 201, 0.562);
   letter-spacing: 2px;
@@ -58,7 +68,7 @@
 }
 
 #emi {
-  color: rgb(89, 155, 255);
+  color: rgba(89, 155, 255, 0.7);
 }
 
 @media only screen and (min-width: 100px) and (max-width: 800px) {
