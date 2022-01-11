@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
 
 * {
   margin: 0;
@@ -23,6 +23,7 @@
 
 .icon-other-skills {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-content: center;
   padding: 2rem 0;
@@ -70,7 +71,7 @@
     padding: 1rem 0;
   }
 
-  .other-skills-containers h3 {
-    display: none;
+  .other-skills-containers {
+    margin: 1rem;
   }
 }
