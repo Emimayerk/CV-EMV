@@ -71,7 +71,7 @@
   color: rgba(89, 155, 255, 0.7);
 }
 
-@media only screen and (min-width: 100px) and (max-width: 800px) {
+@media only screen and (min-width: 0px) and (max-width: 400px) {
   .block-contact {
     padding: 2rem 1rem;
   }
@@ -103,5 +103,11 @@
   .footer h6 {
     font-size: 0.35rem;
     letter-spacing: 1.5px;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 1200px) {
+  .block-contact {
+    padding: 2rem;
   }
 }

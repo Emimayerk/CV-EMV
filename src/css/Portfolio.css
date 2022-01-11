@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Open sans";
+  font-family: 'Open sans';
   font-weight: 300;
 }
 
@@ -54,7 +54,7 @@
   justify-content: center;
 }
 
-@media only screen and (min-width: 100px) and (max-width: 800px) {
+@media only screen and (min-width: 0px) and (max-width: 400px) {
   .block-portfolio {
     padding: 2rem 1rem;
   }
@@ -83,5 +83,11 @@
 
   .work-container {
     padding: 1rem 0;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 1200px) {
+  .block-portfolio {
+    padding: 2rem;
   }
 }

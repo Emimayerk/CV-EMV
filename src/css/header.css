@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open sans";
+  font-family: 'Open sans';
   font-weight: 300;
 }
 
@@ -62,7 +62,7 @@
   box-shadow: 0px 0px 5px 0px rgba(68, 68, 68, 0.5);
 }
 
-@media only screen and (min-width: 100px) and (max-width: 800px) {
+@media only screen and (min-width: 0px) and (max-width: 400px) {
   .block-header {
     flex-direction: column;
   }
@@ -89,5 +89,11 @@
 
   .box-links figure {
     width: 8.5%;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 1200px) {
+  .block-header {
+    justify-content: space-between;
   }
 }
