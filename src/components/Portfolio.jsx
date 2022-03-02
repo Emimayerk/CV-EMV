@@ -2,7 +2,7 @@ import React from 'react';
 
 import OP from '../assets/img/OP.jpg';
 import kiboAR from '../assets/img/kiboAR.jpg';
-import Isquared from '../assets/img/ISQUARED.jpg';
+import fgabriele from '../assets/img/florencia-gabriele.jpg';
 import wedding from '../assets/img/wedding.jpg';
 import ccr from '../assets/img/ccr.jpg';
 
@@ -49,10 +49,10 @@ const Portfolio = () => {
             </figure>
           </div>
           <div className='work-container'>
-            <h3>iSQUARED LATAM</h3>
+            <h3>FLORENCIA GABRIELE</h3>
             <figure>
-              <a href='https://www.isquared-la.com/' target='blank'>
-                <img src={Isquared} alt='' />
+              <a href='https://florenciagabriele.com/' target='blank'>
+                <img src={fgabriele} alt='' />
               </a>
             </figure>
           </div>
