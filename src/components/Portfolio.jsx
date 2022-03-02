@@ -5,6 +5,7 @@ import kiboAR from '../assets/img/kiboAR.jpg';
 import fgabriele from '../assets/img/florencia-gabriele.jpg';
 import wedding from '../assets/img/wedding.jpg';
 import ccr from '../assets/img/ccr.jpg';
+import chapas from '../assets/img/chapas.jpg';
 
 import '../css/Portfolio.css';
 
@@ -21,6 +22,14 @@ const Portfolio = () => {
             <figure>
               <a href='https://www.opamoblamientos.com/' target='blank'>
                 <img src={OP} alt='' />
+              </a>
+            </figure>
+          </div>
+          <div className='work-container'>
+            <h3>CENTRO DE CHAPAS</h3>
+            <figure>
+              <a href='https://centrodechapas.com.ar//' target='blank'>
+                <img src={chapas} alt='' />
               </a>
             </figure>
           </div>
