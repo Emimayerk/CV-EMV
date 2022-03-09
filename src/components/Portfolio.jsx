@@ -6,6 +6,7 @@ import fgabriele from '../assets/img/florencia-gabriele.jpg';
 import wedding from '../assets/img/wedding.jpg';
 import ccr from '../assets/img/ccr.jpg';
 import chapas from '../assets/img/chapas.jpg';
+import mg from '../assets/img/martinez-gorostiaga.jpg';
 
 import '../css/Portfolio.css';
 
@@ -22,6 +23,14 @@ const Portfolio = () => {
             <figure>
               <a href='https://www.opamoblamientos.com/' target='blank'>
                 <img src={OP} alt='' />
+              </a>
+            </figure>
+          </div>
+          <div className='work-container'>
+            <h3>MARTINEZ GOROSTIAGA</h3>
+            <figure>
+              <a href='https://www.martinezgorostiaga.com/' target='blank'>
+                <img src={mg} alt='' />
               </a>
             </figure>
           </div>
