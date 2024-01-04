@@ -3,7 +3,7 @@ import React from 'react';
 import '../css/OtherSkills.css';
 
 import { DiNpm } from 'react-icons/di';
-import { SiHtml5, SiCss3, SiGit, SiBootstrap, SiWebpack, SiPhp, SiWordpress } from 'react-icons/si';
+import { SiHtml5, SiCss3, SiGit, SiBootstrap, SiWoocommerce, SiPhp, SiWordpress } from 'react-icons/si';
 
 const OtherSkills = () => {
   return (
@@ -34,8 +34,8 @@ const OtherSkills = () => {
             <DiNpm fill='rgba(255, 255, 255, .8)' className='icons-skills' />
           </div>
           <div className='other-skills-containers'>
-            <h3>WEBPACK</h3>
-            <SiWebpack fill='rgba(255, 255, 255, .8)' className='icons-skills' />
+            <h3>WooCommerce</h3>
+            <SiWoocommerce fill='rgba(255, 255, 255, .8)' className='icons-skills' />
           </div>
           <div className='other-skills-containers'>
             <h3>PHP</h3>

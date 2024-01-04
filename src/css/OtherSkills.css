@@ -23,8 +23,7 @@
 
 .icon-other-skills {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-content: center;
   padding: 2rem 0;
 }
@@ -69,7 +68,11 @@
   }
 
   .icon-other-skills {
-    padding: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding: 2rem 0;
   }
 
   .other-skills-containers {
