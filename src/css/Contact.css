@@ -131,6 +131,7 @@ a.button:hover {
 
   .description-qr h5 {
     font-size: 1rem;
+    padding-top: 0;
   }
 
   .footer {
@@ -141,6 +142,12 @@ a.button:hover {
     font-size: 0.35rem;
     letter-spacing: 1.5px;
   }
+
+  a.button {
+    display: block;
+    padding: 20px;
+    margin: 2rem;
+}
 }
 
 @media only screen and (min-width: 400px) and (max-width: 1200px) {
