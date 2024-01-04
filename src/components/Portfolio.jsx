@@ -7,6 +7,11 @@ import wedding from '../assets/img/wedding.jpg';
 import ccr from '../assets/img/ccr.jpg';
 import chapas from '../assets/img/chapas.jpg';
 import mg from '../assets/img/martinez-gorostiaga.jpg';
+import maq from '../assets/img/maquijata1.jpg';
+import roster from '../assets/img/roster.jpg';
+import fisio from '../assets/img/fisio.jpg';
+import weller from '../assets/img/weller.jpeg';
+import friendly from '../assets/img/friendly.jpg';
 
 import '../css/Portfolio.css';
 
@@ -26,6 +31,49 @@ const Portfolio = () => {
               </a>
             </figure>
           </div>
+
+          <div className='work-container'>
+            <h3>ROSTER</h3>
+            <figure>
+              <a href='https://www.rosariotermoformados.com/' target='blank'>
+                <img src={roster} alt='' />
+              </a>
+            </figure>
+          </div>
+          <div className='work-container'>
+            <h3>FISIO ROSARIO</h3>
+            <figure>
+              <a href='https://www.fisiorosario.com/' target='blank'>
+                <img src={fisio} alt='' />
+              </a>
+            </figure>
+          </div>
+          <div className='work-container'>
+            <h3>DR PATRICIO WELLER</h3>
+            <figure>
+              <a href='https://www.drpatricioweller.com/' target='blank'>
+                <img src={weller} alt='' />
+              </a>
+            </figure>
+          </div>
+
+          <div className='work-container'>
+            <h3>MAQUIJATA</h3>
+            <figure>
+              <a href='https://maquijata.com.ar/' target='blank'>
+                <img src={maq} alt='' />
+              </a>
+            </figure>
+          </div>
+          <div className='work-container'>
+            <h3>FRIENDLY MARKETING</h3>
+            <figure>
+              <a href='https://www.friendlymarketingagency.com/' target='blank'>
+                <img src={friendly} alt='' />
+              </a>
+            </figure>
+          </div>
+
           <div className='work-container'>
             <h3>MARTINEZ GOROSTIAGA</h3>
             <figure>

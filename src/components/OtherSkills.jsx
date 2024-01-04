@@ -2,8 +2,8 @@ import React from 'react';
 
 import '../css/OtherSkills.css';
 
-import { DiNodejs, DiNpm } from 'react-icons/di';
-import { SiHtml5, SiCss3, SiGit, SiBootstrap, SiBabel, SiAdobexd, SiWebpack, SiPhp, SiSass, SiLinux, SiYarn } from 'react-icons/si';
+import { DiNpm } from 'react-icons/di';
+import { SiHtml5, SiCss3, SiGit, SiBootstrap, SiWebpack, SiPhp, SiWordpress } from 'react-icons/si';
 
 const OtherSkills = () => {
   return (
@@ -22,10 +22,6 @@ const OtherSkills = () => {
             <SiCss3 fill='rgba(255, 255, 255, .8)' className='icons-skills' />
           </div>
           <div className='other-skills-containers'>
-            <h3>SASS</h3>
-            <SiSass fill='rgba(255, 255, 255, .8)' className='icons-skills' />
-          </div>
-          <div className='other-skills-containers'>
             <h3>GIT</h3>
             <SiGit fill='rgba(255, 255, 255, .8)' className='icons-skills' />
           </div>
@@ -38,32 +34,16 @@ const OtherSkills = () => {
             <DiNpm fill='rgba(255, 255, 255, .8)' className='icons-skills' />
           </div>
           <div className='other-skills-containers'>
-            <h3>YARN</h3>
-            <SiYarn fill='rgba(255, 255, 255, .8)' className='icons-skills' />
-          </div>
-          <div className='other-skills-containers'>
-            <h3>BABEL</h3>
-            <SiBabel fill='rgba(255, 255, 255, .8)' className='icons-skills' />
-          </div>
-          <div className='other-skills-containers'>
             <h3>WEBPACK</h3>
             <SiWebpack fill='rgba(255, 255, 255, .8)' className='icons-skills' />
-          </div>
-          <div className='other-skills-containers'>
-            <h3>NODE JS</h3>
-            <DiNodejs fill='rgba(255, 255, 255, .8)' className='icons-skills' />
           </div>
           <div className='other-skills-containers'>
             <h3>PHP</h3>
             <SiPhp fill='rgba(255, 255, 255, .8)' className='icons-skills' />
           </div>
           <div className='other-skills-containers'>
-            <h3>LINUX</h3>
-            <SiLinux fill='rgba(255, 255, 255, .8)' className='icons-skills' />
-          </div>
-          <div className='other-skills-containers'>
-            <h3>ADOBE Xd</h3>
-            <SiAdobexd fill='rgba(255, 255, 255, .8)' className='icons-skills' />
+            <h3>WORDPRESS</h3>
+            <SiWordpress fill='rgba(255, 255, 255, .8)' className='icons-skills' />
           </div>
         </div>
       </div>
