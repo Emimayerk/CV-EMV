@@ -24,15 +24,6 @@ const Portfolio = () => {
         </div>
         <div className='box-works'>
           <div className='work-container'>
-            <h3>OP AMOBLAMIENTOS</h3>
-            <figure>
-              <a href='https://www.opamoblamientos.com/' target='blank'>
-                <img src={OP} alt='' />
-              </a>
-            </figure>
-          </div>
-
-          <div className='work-container'>
             <h3>ROSTER</h3>
             <figure>
               <a href='https://www.rosariotermoformados.com/' target='blank'>
@@ -95,6 +86,14 @@ const Portfolio = () => {
             <figure>
               <a href='https://pruebasfriendlymarketing.us/jkbouquet/' target='blank'>
                 <img src={wedding} alt='' />
+              </a>
+            </figure>
+          </div>
+          <div className='work-container'>
+            <h3>OP AMOBLAMIENTOS</h3>
+            <figure>
+              <a href='https://www.opamoblamientos.com/' target='blank'>
+                <img src={OP} alt='' />
               </a>
             </figure>
           </div>
