@@ -34,7 +34,7 @@ const OtherSkills = () => {
             <DiNpm fill='rgba(255, 255, 255, .8)' className='icons-skills' />
           </div>
           <div className='other-skills-containers'>
-            <h3>WooCommerce</h3>
+            <h3>WOOCOMMERCE</h3>
             <SiWoocommerce fill='rgba(255, 255, 255, .8)' className='icons-skills' />
           </div>
           <div className='other-skills-containers'>

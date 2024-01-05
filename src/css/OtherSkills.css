@@ -23,6 +23,7 @@
 
 .icon-other-skills {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-content: center;
   padding: 2rem 0;
