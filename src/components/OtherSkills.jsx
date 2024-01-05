@@ -3,7 +3,22 @@ import React from 'react';
 import '../css/OtherSkills.css';
 
 import { DiNpm } from 'react-icons/di';
-import { SiHtml5, SiCss3, SiGit, SiBootstrap, SiWoocommerce, SiPhp, SiWordpress } from 'react-icons/si';
+import {
+  SiHtml5,
+  SiCss3,
+  SiGit,
+  SiBootstrap,
+  SiWoocommerce,
+  SiPhp,
+  SiWordpress,
+  SiJavascript,
+  SiWebpack,
+  SiBabel,
+  SiYarn,
+  SiFilezilla,
+  SiGithub,
+  SiAdobexd,
+} from 'react-icons/si';
 
 const OtherSkills = () => {
   return (
@@ -22,6 +37,34 @@ const OtherSkills = () => {
             <SiCss3 fill='rgba(255, 255, 255, .8)' className='icons-skills' />
           </div>
           <div className='other-skills-containers'>
+            <h3>JAVASCRIPT</h3>
+            <SiJavascript fill='rgba(255, 255, 255, .8)' className='icons-skills' />
+          </div>
+          <div className='other-skills-containers'>
+            <h3>PHP</h3>
+            <SiPhp fill='rgba(255, 255, 255, .8)' className='icons-skills' />
+          </div>
+          <div className='other-skills-containers'>
+            <h3>WEBPACK</h3>
+            <SiWebpack fill='rgba(255, 255, 255, .8)' className='icons-skills' />
+          </div>
+          <div className='other-skills-containers'>
+            <h3>BABEL</h3>
+            <SiBabel fill='rgba(255, 255, 255, .8)' className='icons-skills' />
+          </div>
+          <div className='other-skills-containers'>
+            <h3>Yarn</h3>
+            <SiYarn fill='rgba(255, 255, 255, .8)' className='icons-skills' />
+          </div>
+          <div className='other-skills-containers'>
+            <h3>FILEZILLA</h3>
+            <SiFilezilla fill='rgba(255, 255, 255, .8)' className='icons-skills' />
+          </div>
+          <div className='other-skills-containers'>
+            <h3>GITHUB</h3>
+            <SiGithub fill='rgba(255, 255, 255, .8)' className='icons-skills' />
+          </div>
+          <div className='other-skills-containers'>
             <h3>GIT</h3>
             <SiGit fill='rgba(255, 255, 255, .8)' className='icons-skills' />
           </div>
@@ -36,6 +79,10 @@ const OtherSkills = () => {
           <div className='other-skills-containers'>
             <h3>WOOCOMMERCE</h3>
             <SiWoocommerce fill='rgba(255, 255, 255, .8)' className='icons-skills' />
+          </div>
+          <div className='other-skills-containers'>
+            <h3>ADOBE XD</h3>
+            <SiAdobexd fill='rgba(255, 255, 255, .8)' className='icons-skills' />
           </div>
           <div className='other-skills-containers'>
             <h3>PHP</h3>
