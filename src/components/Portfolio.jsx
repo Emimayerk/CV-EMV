@@ -92,7 +92,7 @@ const Portfolio = () => {
           <div className='work-container'>
             <h3>OP AMOBLAMIENTOS</h3>
             <figure>
-              <a href='https://www.opamoblamientos.com/' target='blank'>
+              <a href='https://emimayerk.github.io/OPAmoblamientos/' target='blank'>
                 <img src={OP} alt='' />
               </a>
             </figure>
