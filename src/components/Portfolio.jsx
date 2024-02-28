@@ -68,7 +68,7 @@ const Portfolio = () => {
           <div className='work-container'>
             <h3>MARTINEZ GOROSTIAGA</h3>
             <figure>
-              <a href='https://www.martinezgorostiaga.com/' target='blank'>
+              <a href='https://martinezgorostiaga.netlify.app/' target='blank'>
                 <img src={mg} alt='' />
               </a>
             </figure>
