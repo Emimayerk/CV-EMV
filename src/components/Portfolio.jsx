@@ -23,6 +23,30 @@ const Portfolio = () => {
           <h2>PORTFOLIO</h2>
         </div>
         <div className='box-works'>
+           <div className='work-container'>
+            <h3>MARTINEZ GOROSTIAGA</h3>
+            <figure>
+              <a href='https://martinezgorostiaga.netlify.app/' target='blank'>
+                <img src={mg} alt='' />
+              </a>
+            </figure>
+          </div>
+          <div className='work-container'>
+            <h3>OP AMOBLAMIENTOS</h3>
+            <figure>
+              <a href='https://emimayerk.github.io/OPAmoblamientos/' target='blank'>
+                <img src={OP} alt='' />
+              </a>
+            </figure>
+          </div>
+          <div className='work-container'>
+            <h3>MAQUIJATA</h3>
+            <figure>
+              <a href='https://maquijata.com.ar/' target='blank'>
+                <img src={maq} alt='' />
+              </a>
+            </figure>
+          </div>
           <div className='work-container'>
             <h3>ROSTER</h3>
             <figure>
@@ -47,29 +71,11 @@ const Portfolio = () => {
               </a>
             </figure>
           </div>
-
-          <div className='work-container'>
-            <h3>MAQUIJATA</h3>
-            <figure>
-              <a href='https://maquijata.com.ar/' target='blank'>
-                <img src={maq} alt='' />
-              </a>
-            </figure>
-          </div>
           <div className='work-container'>
             <h3>FRIENDLY MARKETING</h3>
             <figure>
               <a href='https://www.friendlymarketingagency.com/' target='blank'>
                 <img src={friendly} alt='' />
-              </a>
-            </figure>
-          </div>
-
-          <div className='work-container'>
-            <h3>MARTINEZ GOROSTIAGA</h3>
-            <figure>
-              <a href='https://martinezgorostiaga.netlify.app/' target='blank'>
-                <img src={mg} alt='' />
               </a>
             </figure>
           </div>
@@ -89,14 +95,7 @@ const Portfolio = () => {
               </a>
             </figure>
           </div>
-          <div className='work-container'>
-            <h3>OP AMOBLAMIENTOS</h3>
-            <figure>
-              <a href='https://emimayerk.github.io/OPAmoblamientos/' target='blank'>
-                <img src={OP} alt='' />
-              </a>
-            </figure>
-          </div>
+          
           <div className='work-container'>
             <h3>CCR STEEL</h3>
             <figure>
