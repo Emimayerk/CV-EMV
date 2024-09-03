@@ -12,6 +12,7 @@ import roster from '../assets/img/roster.jpg';
 import fisio from '../assets/img/fisio.jpg';
 import weller from '../assets/img/weller.jpeg';
 import friendly from '../assets/img/friendly.jpg';
+import abz from '../assets/img/logo verde y crudo.svg';
 
 import '../css/Portfolio.css';
 
@@ -44,6 +45,14 @@ const Portfolio = () => {
             <figure>
               <a href='https://maquijata.com.ar/' target='blank'>
                 <img src={maq} alt='' />
+              </a>
+            </figure>
+          </div>
+          <div className='work-container'>
+            <h3>PRODE</h3>
+            <figure>
+              <a href='https://prodeabrazocaracol.netlify.app/' target='blank'>
+                <img src={abz} alt='' />
               </a>
             </figure>
           </div>
