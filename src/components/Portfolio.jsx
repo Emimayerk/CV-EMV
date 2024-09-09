@@ -24,7 +24,23 @@ const Portfolio = () => {
         <div className='title-porfolio'>
           <h2>PORTFOLIO</h2>
         </div>
-        <div className='box-works'>
+          <div className='work-container'>
+            <h3>MAQUIJATA</h3>
+            <figure>
+              <a href='https://maquijata.com.ar/' target='blank'>
+                <img src={maq} alt='' />
+              </a>
+            </figure>
+          </div>
+          <div className='work-container'>
+            <h3>ZETA AGRIM</h3>
+            <figure>
+              <a href='https://estudiodeagrimensura.com/' target='blank'>
+                <img src={zeta} alt='' />
+              </a>
+            </figure>
+          </div>
+          <div className='box-works'>
            <div className='work-container'>
             <h3>MARTINEZ GOROSTIAGA</h3>
             <figure>
@@ -42,34 +58,10 @@ const Portfolio = () => {
             </figure>
           </div>
           <div className='work-container'>
-            <h3>MAQUIJATA</h3>
-            <figure>
-              <a href='https://maquijata.com.ar/' target='blank'>
-                <img src={maq} alt='' />
-              </a>
-            </figure>
-          </div>
-          <div className='work-container'>
-            <h3>ZETA AGRIM</h3>
-            <figure>
-              <a href='https://estudiodeagrimensura.com/' target='blank'>
-                <img src={zeta} alt='' />
-              </a>
-            </figure>
-          </div>
-          <div className='work-container'>
             <h3>PRODE</h3>
             <figure>
               <a href='https://prodeabrazocaracol.netlify.app/' target='blank'>
                 <img src={abz} alt='' />
-              </a>
-            </figure>
-          </div>
-          <div className='work-container'>
-            <h3>ROSTER</h3>
-            <figure>
-              <a href='https://www.rosariotermoformados.com/' target='blank'>
-                <img src={roster} alt='' />
               </a>
             </figure>
           </div>
@@ -86,6 +78,14 @@ const Portfolio = () => {
             <figure>
               <a href='https://www.drpatricioweller.com/' target='blank'>
                 <img src={weller} alt='' />
+              </a>
+            </figure>
+          </div>
+             <div className='work-container'>
+            <h3>CCR STEEL</h3>
+            <figure>
+              <a href='https://ccrsteel.com/' target='blank'>
+                <img src={ccr} alt='' />
               </a>
             </figure>
           </div>
@@ -113,7 +113,6 @@ const Portfolio = () => {
               </a>
             </figure>
           </div>
-          
           <div className='work-container'>
             <h3>CCR STEEL</h3>
             <figure>
@@ -135,6 +134,14 @@ const Portfolio = () => {
             <figure>
               <a href='https://florenciagabriele.com/' target='blank'>
                 <img src={fgabriele} alt='' />
+              </a>
+            </figure>
+          </div>
+            <div className='work-container'>
+            <h3>ROSTER</h3>
+            <figure>
+              <a href='https://www.rosariotermoformados.com/' target='blank'>
+                <img src={roster} alt='' />
               </a>
             </figure>
           </div>
