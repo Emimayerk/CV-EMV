@@ -3,17 +3,15 @@ import React from 'react';
 import OP from '../assets/img/OP.jpg';
 import kiboAR from '../assets/img/kiboAR.jpg';
 import fgabriele from '../assets/img/florencia-gabriele.jpg';
-import wedding from '../assets/img/wedding.jpg';
+import abz from '../assets/img/logo verde y crudo.svg';
 import ccr from '../assets/img/ccr.jpg';
 import chapas from '../assets/img/chapas.jpg';
 import mg from '../assets/img/martinez-gorostiaga.jpg';
 import maq from '../assets/img/maquijata1.jpg';
-import roster from '../assets/img/roster.jpg';
 import fisio from '../assets/img/fisio.jpg';
 import weller from '../assets/img/weller.jpeg';
 import friendly from '../assets/img/friendly.jpg';
-import abz from '../assets/img/logo verde y crudo.svg';
-import zeta from '../assets/img/Logo_Mesa de trabajo 1.png';
+import zeta from '../assets/img/../assets/img/Logo_Mesa de trabajo 1.png';
 
 import '../css/Portfolio.css';
 
@@ -24,6 +22,7 @@ const Portfolio = () => {
         <div className='title-porfolio'>
           <h2>PORTFOLIO</h2>
         </div>
+        <div className='box-works'>
           <div className='work-container'>
             <h3>MAQUIJATA</h3>
             <figure>
@@ -37,31 +36,6 @@ const Portfolio = () => {
             <figure>
               <a href='https://estudiodeagrimensura.com/' target='blank'>
                 <img src={zeta} alt='' />
-              </a>
-            </figure>
-          </div>
-          <div className='box-works'>
-           <div className='work-container'>
-            <h3>MARTINEZ GOROSTIAGA</h3>
-            <figure>
-              <a href='https://martinezgorostiaga.netlify.app/' target='blank'>
-                <img src={mg} alt='' />
-              </a>
-            </figure>
-          </div>
-          <div className='work-container'>
-            <h3>OP AMOBLAMIENTOS</h3>
-            <figure>
-              <a href='https://emimayerk.github.io/OPAmoblamientos/' target='blank'>
-                <img src={OP} alt='' />
-              </a>
-            </figure>
-          </div>
-          <div className='work-container'>
-            <h3>PRODE</h3>
-            <figure>
-              <a href='https://prodeabrazocaracol.netlify.app/' target='blank'>
-                <img src={abz} alt='' />
               </a>
             </figure>
           </div>
@@ -81,19 +55,20 @@ const Portfolio = () => {
               </a>
             </figure>
           </div>
-             <div className='work-container'>
-            <h3>CCR STEEL</h3>
-            <figure>
-              <a href='https://ccrsteel.com/' target='blank'>
-                <img src={ccr} alt='' />
-              </a>
-            </figure>
-          </div>
           <div className='work-container'>
             <h3>FRIENDLY MARKETING</h3>
             <figure>
               <a href='https://www.friendlymarketingagency.com/' target='blank'>
                 <img src={friendly} alt='' />
+              </a>
+            </figure>
+          </div>
+
+          <div className='work-container'>
+            <h3>MARTINEZ GOROSTIAGA</h3>
+            <figure>
+              <a href='https://martinezgorostiaga.netlify.app/' target='blank'>
+                <img src={mg} alt='' />
               </a>
             </figure>
           </div>
@@ -106,10 +81,10 @@ const Portfolio = () => {
             </figure>
           </div>
           <div className='work-container'>
-            <h3>JK WEDDING PLANNER</h3>
+            <h3>OP AMOBLAMIENTOS</h3>
             <figure>
-              <a href='https://pruebasfriendlymarketing.us/jkbouquet/' target='blank'>
-                <img src={wedding} alt='' />
+              <a href='https://emimayerk.github.io/OPAmoblamientos/' target='blank'>
+                <img src={OP} alt='' />
               </a>
             </figure>
           </div>
@@ -137,11 +112,11 @@ const Portfolio = () => {
               </a>
             </figure>
           </div>
-            <div className='work-container'>
-            <h3>ROSTER</h3>
+          <div className='work-container'>
+            <h3>PRODE ABZ</h3>
             <figure>
-              <a href='https://www.rosariotermoformados.com/' target='blank'>
-                <img src={roster} alt='' />
+              <a href='https://prodeabrazocaracol.netlify.app/' target='blank'>
+                <img src={abz} alt='' />
               </a>
             </figure>
           </div>
